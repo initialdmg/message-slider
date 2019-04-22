@@ -1,0 +1,7 @@
+yarn.lock
+
+# modules
+node_modules
+
+# build
+dist

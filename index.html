@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Message Slider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #main {
+      height: 21px;
+      overflow: hidden;
+    }
+  </style>
+  <script src="src/index.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </div>
+  <script>
+    var ms = new MessageSlider({
+      container: '#main',
+      duration: 2000,
+      speed: 1000,
+      easing: 'linear',
+    })
+  </script>
+</body>
+</html>
